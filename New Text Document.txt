@@ -1,0 +1,44 @@
+To create a named, extended ACL called "extended_local_ACL" with the rules you specified, you can use the following commands:
+
+Router(config)# ip access-list extended extended_local_ACL
+Router(config-ext-nacl)# permit icmp host 10.1.1.1 host 172.16.1.1
+Router(config-ext-nacl)# permit tcp host 10.1.1.1 host 172.16.1.1 eq 80
+Router(config-ext-nacl)# permit tcp host 10.1.1.1 host 172.16.1.1 eq 443
+Router(config-ext-nacl)# permit icmp host 10.1.1.2 host 172.16.1.2
+Router(config-ext-nacl)# permit tcp host 10.1.1.2 host 172.16.1.2 eq 80
+Router(config-ext-nacl)# permit tcp host 10.1.1.2 host 172.16.1.2 eq 443
+Router(config-ext-nacl)# deny ip 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255
+Router(config-ext-nacl)# permit ip 10.1.1.0 0.0.0.255 any
+Router(config-ext-nacl)# exit
+
+- To bind the extended_local_ACL to the most efficient interface on R1, you need to identify the interface that connects to the 10.1.1.0/24 network. Assuming it is FastEthernet0/0, you can use the following command:
+
+Router(config)# interface FastEthernet0/0
+Router(config-if)# ip access-group extended_local_ACL out
+Router(config-if)# exit
+
+- To create a numbered, extended ACL with a number of "150" and apply the rules you specified, you can use the following commands:
+
+Router(config)# access-list 150 permit tcp 10.1.1.0 0.0.0.255 any eq 80
+Router(config)# access-list 150 permit tcp 10.1.1.0 0.0.0.255 any eq 443
+Router(config)# access-list 150 permit tcp any 172.16.1.0 0.0.0.255 eq 80
+Router(config)# access-list 150 permit tcp any 172.16.1.0 0.0.0.255 eq 443
+Router(config)# access-list 150 deny ip any 10.1.1.0 0.0.0.255
+Router(config)# access-list 150 permit ip any any
+
+- To apply the ACL 150 to an interface, you need to identify the interface that connects to the external network. Assuming it is Serial0/0, you can use the following command:
+
+Router(config)# interface Serial0/0
+Router(config-if)# ip access-group 150 in
+Router(config-if)# exit
+
+- To verify the ACLs, you can use the following commands:
+
+Router# ping 172.16.1.1 source 10.1.1.1
+Router# ping 172.16.1.2 source 10.1.1.1
+Router# ping 172.16.1.1 source 10.1.1.2
+Router# ping 172.16.1.2 source 10.1.1.2
+Router# show ip access-lists
+Router# show ip interface
+
+
